@@ -1,0 +1,41 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 50px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: max(150px,20vw);
+    height: max(120px,16vw);
+    background-color: white;
+    font-size: max(11px, 1vw);
+    text-align: center;
+}
+
+.button{
+    background-color: white;
+    border: 1px solid blue;
+    width: max(80px, 16vw);
+    height: max(20px, 2vw);
+    font-size: max(11px, 1vw);
+    color: blue;
+}
+
+.spedi{
+    background-color: rgb(245, 244, 244);
+    height: 963px;
+}
